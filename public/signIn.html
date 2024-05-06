@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="body">
+    <section id="login__page" class="pt-[86px] pb-16">
+        <div class="max-w-[670px] mx-auto">
+            <div class="flex justify-center gap-10">
+                <a href="signUp.html" id="login__page-link"
+                    class="font-medium text-lg bg-blue-300 transition-all hover:bg-blue-800 hover:text-white px-8 py-2 rounded-full border-[#8668688C] mb-8">Sign
+                    in</a>
+                <a href="signIn.html" id="login__page-link"
+                    class="font-medium text-lg bg-blue-300 transition-all hover:bg-blue-800 hover:text-white px-8 py-2 rounded-full border-[#8668688C] mb-8">Sign
+                    up</a>
+            </div>
+            <form action="#" class="pb-20 border-b border-[#8668688C] mb-24">
+                <div class="flex gap-5">
+                    <div class="">
+                        <label for="inp" class="inp_border_black_title block">First name</label>
+                        <input required type="text" id="inp" class="inp_border_black px-3 w-[325px]">
+                    </div>
+                    <div class="">
+                        <label for="inp2" class="inp_border_black_title block">Last name</label>
+                        <input required type="text" id="inp2" class="inp_border_black px-3 w-[325px]">
+                    </div>
+                </div>
+                <label for="inp3" class="inp_border_black_title block">Password</label>
+                <input required type="password" id="inp3" class="inp_border_black w-full px-3 ">
+                <label for="inp4" class="inp_border_black_title block">Email</label>
+                <input required type="email" id="inp4" class="inp_border_black_2 w-full px-3 ">
+                <div class="">
+                    <div class="">
+                        <label for="inp5" class="inp_border_black_title block">Phone</label>
+                        <input required type="tel" id="inp5" class="inp_border_black w-full pl-3">
+                    </div>
+                </div>
+                <button onclick="submit()" id="login__btn"
+                    class="py-4 px-[302px] bg-white text-black transition-all hover:bg-black hover:text-white border-2 text-base">Continue</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
